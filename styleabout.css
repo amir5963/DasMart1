@@ -1,0 +1,256 @@
+.top{
+    background-color: red ;
+    text-align: center ;
+    padding: 20px ;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 1    5px;
+}
+
+/***************************************************** Navbar ****************************************************/
+
+.navbar{
+    background-color: orange !important;
+    text-align: center !important;
+    /* padding: 20px !important; */
+    color: white !important;  
+}
+
+.fa-shopping-cart{
+    font-size: 30px !important;
+    color: #000 !important;
+}
+
+.slash{
+    margin-top: 8px;
+    color: black;
+}
+
+/***************************************************** Breadcrumb ****************************************************/
+
+.breadcrumb{
+    margin: 10px 0px 0px 0px;
+    border: 1px solid darkgray;
+}
+
+
+.breadcrumb-item a{
+    margin-left: 150px;
+}
+
+.breadcrumb-item{
+    align-items: center;
+}
+
+/***************************************************** who we are Mission vision ****************************************************/
+
+
+.whoweare, .mission, .vision{
+    background-color: lightcyan;
+}
+
+.whoweare img{
+    opacity: 70%;
+}
+
+.whoweare span{
+    color: red;
+}
+
+.whoweare p {
+    text-align: justify;
+    margin: 30px 150px 0px 150px;
+}
+
+.abouts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin: -20px 150px 0px 150px; */
+}
+
+.mission, .vision{
+    width: 50%;
+}
+
+.mission h1, .vision h1{
+    padding: 50px;
+    text-align: center;
+}
+
+.mission p, .vision p{
+    
+    text-align: justify;
+        margin: -20px 150px 0px 150px;
+
+}
+
+.mission span, .vision span, .values span{
+    color: red;
+}
+
+/***************************************************** Our Values ****************************************************/
+
+.values{
+    text-align: center;
+    padding: 40px;
+}
+
+.values img{
+    padding: 50px;
+    width: 700px;
+}
+
+
+
+
+
+
+
+/****************************************************** Footer **********************************************/
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 25  0px;
+    background-color: orange;
+    color: white;
+    padding: 60px;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 250px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fa-facebook-official, .fa-instagram, .fa-youtube-play, .fa-twitter-square{
+    width: 50px;
+    font-size: 40px !important;
+    color: rgb(78, 78, 233);
+    margin-top: 25px;
+}
+
+.fa-whatsapp, .fa-envelope-o, .fa-headphones{
+    font-size: 30px !important;
+    margin-bottom: 25px;
+    
+}
+
+.footer-container span{
+    font-size: larger;
+}
+
+/*************************************************** Copyrights *****************************************************/
+
+.copyright{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+/*************************************************** Media Query  *****************************************************/
+
+@media screen and (max-width: 800px) {
+
+/***************************************************** who we are Mission vision ****************************************************/
+
+
+.whoweare h1{
+    font-size: 30px;
+}
+
+.whoweare img{
+    width: 100%;
+}
+
+.whoweare p {
+    text-align: justify;
+    margin: 30px 20px 0px 20px;
+}
+
+
+.mission, .vision{
+    width: 100%;
+}
+
+.mission h1, .vision h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.mission p, .vision p{
+    
+    text-align: justify;
+        margin: -20px 20px 0px 20px;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+/***************************************************** Breadcrumb ****************************************************/
+
+.breadcrumb-item a{
+    margin-left: 10%;
+}
+
+/***************************************************** who we are Mission vision ****************************************************/
+
+
+.whoweare h1{
+    font-size: 30px;
+}
+
+.whoweare img{
+    width: 100%;
+}
+
+.whoweare p {
+    text-align: justify;
+    margin: 30px 20px 0px 20px;
+}
+
+
+.mission, .vision{
+    width: 100%;
+}
+
+.mission h1, .vision h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.mission p, .vision p{
+    
+    text-align: justify;
+        margin: -20px 20px 0px 20px;
+
+}
+
+
+/***************************************************** Our Values ****************************************************/
+
+.values{
+    text-align: center;
+    padding: 10px;
+}
+
+.values img{
+    padding: 50px;
+    width: 100%;
+}
+
+.values h1{
+    font-size: 30px;
+}

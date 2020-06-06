@@ -1,0 +1,295 @@
+
+.top{
+    background-color: red ;
+    text-align: center ;
+    padding: 20px ;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 1    5px;
+}
+
+/******************************************************* navbar  ************************************/
+
+.navbar{
+    background-color: orange !important;
+    text-align: center !important;
+    /* padding: 20px !important; */
+    color: white !important;  
+
+}
+
+.navul{
+    list-style: none;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    display: flex !important;
+}
+
+.fa-shopping-cart{
+    /* margin-top: 10px; */
+    font-size: 30px !important;
+}
+
+.slash{
+    margin-top: 8px;
+    color: black;
+}
+
+
+/***************************************************** Breadcrumb ****************************************************/
+
+.breadcrumb{
+    margin: 10px 0px 0px 0px;
+    border: 1px solid darkgray;
+}
+
+
+.breadcrumb-item a{
+    margin-left: 150px;
+}
+
+.breadcrumb-item{
+    align-items: center;
+}
+
+/********************************************** Contact details **********************************************/
+
+.contact div h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.contact-body{
+    height: 100%;
+    margin: 0 150px;
+    padding: 20px;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    box-shadow: 6px 2px 5px  rgb(179, 176, 176);
+}
+
+.contact-body p{
+    margin-left: 80px;
+}
+.fa-envelope, .fa-phone{
+    float: left;
+    font-size: 50px !important;
+}
+
+
+/********************************************** Address **********************************************/
+
+
+.address{
+    margin: 0 150px;
+
+}
+
+.address div h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.address-body{
+    justify-content: center;
+    margin: 5px;
+    background-color: orange;
+    color: rgb(179, 8, 8);
+    font-weight: bold;
+    /* flex-wrap: wrap; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-top: 25px;
+    width: 880px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.address-body Span{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.address-frame{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/********************************************** Call Back Request **********************************************/
+
+.Customer-frame{
+    margin: 0 150px;
+    padding: 20px;
+    background-color: lightgray;
+    margin-top: 25px;
+    box-shadow: 6px 2px 5px  rgb(179, 176, 176);
+}
+
+.Customer div h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Customer{
+    /* margin: 0 auto; */
+}
+
+.customerform{
+    margin: 50px auto;
+    border: 2px dashed black;
+    /* padding: 100px; */
+    justify-content: center;
+    background-color: orange;
+    /* margin-top: 25px; */
+}
+
+.customerform td{
+    padding: 10px;
+}
+
+.customerform span{
+    padding: 50px;
+}
+
+.customerform input, .customerform textarea{
+    width: 260px;
+}
+
+
+/****************************************************** Footer **********************************************/
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 25  0px;
+    background-color: orange;
+    color: white;
+    padding: 60px;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 250px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fa-facebook-official, .fa-instagram, .fa-youtube-play, .fa-twitter-square{
+    width: 50px;
+    font-size: 40px !important;
+    color: rgb(78, 78, 233);
+    margin-top: 25px;
+}
+
+.fa-whatsapp, .fa-envelope-o, .fa-headphones{
+    font-size: 30px !important;
+    margin-bottom: 25px;
+    
+}
+
+.footer-container span{
+    font-size: larger;
+}
+
+/*************************************************** Copyrights *****************************************************/
+
+.copyright{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+
+/*************************************************** Media Query  *****************************************************/
+
+
+@media screen and (max-width: 600px) {
+
+
+/***************************************************** Breadcrumb ****************************************************/
+
+.breadcrumb-item a{
+    margin-left: 10%;
+}
+
+/********************************************** Contact details **********************************************/
+
+.contact-body{
+    height: 100%;
+    margin: 0 15px;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    text-align: justify;
+    justify-content: center;
+}
+
+.contact-body p{
+    margin-top: 10%;
+    margin-left: 0%;
+}
+
+/********************************************** Address **********************************************/
+
+
+.address{
+    margin: 0 15px;
+}
+
+.address-body{
+    height: 100%;
+    /* margin: 0 15px; */
+    margin-top: 15px;
+  
+}
+
+.address-frame{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/********************************************** Call Back Request**********************************************/
+
+.Customer-frame{
+    text-align: justify;
+    margin: 0 15px;
+    padding: 20px;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    box-shadow: 6px 2px 5px  rgb(179, 176, 176);
+}
+
+.customerform{
+    margin: 20px 5px;
+}
+
+.customerform tr{
+    padding: 10px;
+}
+
+.customerform td{
+    padding: 4px;
+}
+
+.customerform tr td input, .customerform tr td textarea{
+    width: 100%;
+}
+}

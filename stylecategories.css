@@ -1,0 +1,161 @@
+.top{
+    background-color: red ;
+    text-align: center ;
+    padding: 20px ;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 1    5px;
+}
+
+/***************************************************** Navbar ****************************************************/
+
+.navbar{
+    background-color: orange !important;
+    text-align: center !important;
+    /* padding: 20px !important; */
+    color: white !important;  
+}
+
+.fa-shopping-cart{
+    font-size: 30px !important;
+    color: #000 !important;
+}
+
+.slash{
+    margin-top: 8px;
+    color: black;
+}
+
+/***************************************************** slider ****************************************************/
+
+.carousel-item img{
+    height: 300px;
+}
+
+
+
+/***************************************************** Breadcrumb ****************************************************/
+
+.breadcrumb{
+    margin: 10px 0px 0px 00px;
+    border: 1px solid darkgray;
+}
+
+.breadcrumb li nav {
+    margin-left: 150px;
+}
+
+
+
+.breadcrumb-item {
+    align-items: center;
+}
+
+/***************************************************** grocery product ****************************************************/
+
+.grocery-product h1{
+    background-color: orange;
+    text-align: center;
+    height: 100px;
+    align-items: center;    
+    padding: 20px;
+}
+
+
+.grocery-product h1 span{
+    color: darkred;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 30px;
+    width: 250px;
+    height: 90%;
+
+}
+
+.btn-primary{
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+}
+
+.pagination{
+    justify-content: center;
+}
+
+
+/****************************************************** Footer **********************************************/
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 25  0px;
+    background-color: orange;
+    color: white;
+    padding: 60px;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 250px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fa-facebook-official, .fa-instagram, .fa-youtube-play, .fa-twitter-square{
+    width: 50px;
+    font-size: 40px !important;
+    color: rgb(78, 78, 233);
+    margin-top: 25px;
+}
+
+.fa-whatsapp, .fa-envelope-o, .fa-headphones{
+    font-size: 30px !important;
+    margin-bottom: 25px;
+    
+}
+
+.footer-container span{
+    font-size: larger;
+}
+
+/*************************************************** Copyrights *****************************************************/
+
+.copyright{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+
+/*************************************************** Media Query  *****************************************************/
+
+
+@media screen and (max-width: 480px) {
+
+
+/*************************************************** Grocery Product  *****************************************************/
+
+    .grocery-product h1{
+        font-size: 30px;
+    }
+
+    .grocery-product h1 p{
+        margin-top: 8px;
+    }
+
+/*************************************************** Breadcrumb  *****************************************************/
+
+    .breadcrumb li nav {
+        margin-left: 5px;
+    }
+    
